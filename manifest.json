@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+
+	"name": "WikiRand",
+	"description": "Extension to open a random Wikipedia article easily.",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "WikiRand"
+	},
+
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
